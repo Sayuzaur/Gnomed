@@ -1,4 +1,16 @@
+**Minecraft mod for beta 1.7.3 and StationAPI**!
+
 # Gnomed
+
+Gnome your Chums with the new "You've been gnomed" mod. 
+
+**Gnomed** adds Gnomes, stylized on garden gnomes, who laugh, yapp, and can pull gnomish tricks. 
+
+Several different Gnome variants spawn in different environments, some are more rare than others. Collect them all for yourself or hide them in your friends base to gnome them!
+
+Contains **sound effects** from classic video **["You've been gnomed"](https://www.youtube.com/watch?v=6n3pFFPSlW4)**.
+
+![Gnomes](preview/preview.jpg)
 
 ## Required dependencies
 
