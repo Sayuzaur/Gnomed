@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "gnomed",
+  "version": "${version}",
+
+  "name": "Gnomed",
+  "description": "Get Gnomed!",
+  "authors": [
+    "Sayuzaur"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Sayuzaur",
+    "sources": "https://github.com/Sayuzaur/Gnomed"
+  },
+
+  "license": "EUPL-1.2",
+  "icon": "assets/gnomed/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "io.github.sayuzaur.gnomed.GnomedMod",
+      "io.github.sayuzaur.gnomed.event.init.BlockListener",
+      "io.github.sayuzaur.gnomed.event.init.BiomeModificationListener"
+    ],
+    "stationapi:event_bus_client": [
+    ],
+    "stationapi:event_bus_server": [
+    ]
+  },
+  "mixins": [
+    "gnomed.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3",
+    "stationapi": ">=2.0.0-alpha.6.2"
+  }
+}

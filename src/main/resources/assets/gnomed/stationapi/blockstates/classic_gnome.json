@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gnomed:block/classic_gnome",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "gnomed:block/classic_gnome",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gnomed:block/classic_gnome",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gnomed:block/classic_gnome",
+      "y": 270
+    }
+  }
+}

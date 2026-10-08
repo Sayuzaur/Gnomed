@@ -1,0 +1,9 @@
+{
+  "parent": "gnomed:block/gnome",
+  "textures": {
+    "gnome_body": "gnomed:block/gnome_rgb_body",
+    "gnome_hat": "gnomed:block/gnome_rgb_hat",
+    "gnome_beard": "gnomed:block/gnome_default_beard",
+    "particle": "gnomed:block/gnome_default_body"
+  }
+}
