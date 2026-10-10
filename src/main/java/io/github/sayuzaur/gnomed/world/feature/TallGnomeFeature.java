@@ -20,7 +20,7 @@ import static io.github.sayuzaur.gnomed.block.Gnome.HORIZONTAL_FACING;
 import static io.github.sayuzaur.gnomed.block.Gnome.PLACED_BY_PLAYER;
 
 public class TallGnomeFeature extends Feature {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     public boolean generate(World world, Random random, int x, int y, int z) {
         Block gnome = BlockListener.TALL_GNOME;
